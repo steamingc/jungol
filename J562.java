@@ -30,31 +30,3 @@ public class J562 {
 		sc.close();
 	}
 }
-
-//영환
-//public class J562 {
-//	   public static void main(String[] args) {
-//	      Scanner sc = new Scanner(System.in);
-//	      
-//	      int[] arr = new int[10];
-//	      int sum = 0;		//짝수 번째 입력된 값의 합. 인덱스 = 1 3 5 7 9
-//	      double avg = 0;	//홀수 번째 입력된 값의 평균. 인덱스 = 2 4 6 8
-//	      int j = 0;
-//	      
-//	      for(int i = 0; i < arr.length; i++) {
-//	         arr[i] = sc.nextInt();
-//	         
-//	         if(i % 2 != 0) { 
-//	        	 sum += arr[i]; 
-//	        } else {
-//	            j++;
-//	            avg += arr[i];
-//	        }
-//	      }
-//	         
-//	      avg = avg / j;
-//	      
-//	      System.out.printf("sum : %d\n", sum);
-//	      System.out.printf("avg : %.1f", avg);
-//	}
-//}
